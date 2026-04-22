@@ -1,6 +1,6 @@
 # Vedantu Student Learning Assistant
 
-An AI-powered, context-aware Student Learning Assistant for Vedantu. The app uses Streamlit, LangChain, OpenAI, and a locally persisted ChromaDB vector store to recommend study material and weekly preparation plans for a default logged-in student: Arjun (`student_id=5123`).
+An AI-powered, context-aware Student Learning Assistant for Vedantu. The app uses Streamlit, LangChain, OpenAI, and a locally persisted ChromaDB vector store to recommend study material and weekly preparation plans for a default logged-in student: Arjun (`student_id=S123`).
 
 ## Features
 

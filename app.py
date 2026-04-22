@@ -32,7 +32,7 @@ def _render_sidebar() -> str:
     with st.sidebar:
         st.header("Setup")
         api_key = st.text_input("OpenAI API Key", type="password")
-        model = st.selectbox("Model", ["gpt-4o", "gpt-3.5-turbo"], index=0)
+        model = st.selectbox("Model", ["gpt-4o", "gpt-3.5-turbo", "gpt-4.1-mini", "gpt-4"], index=0)
 
         context = load_student_context()
         profile = context["profile"]

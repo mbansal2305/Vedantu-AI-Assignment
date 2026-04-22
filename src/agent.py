@@ -10,7 +10,7 @@ from src.database import DATA_DIR
 from src.tools import TOOLS
 
 
-DEFAULT_STUDENT_ID = "5123"
+DEFAULT_STUDENT_ID = "S123"
 
 
 def _load_json(filename: str) -> dict:
@@ -90,6 +90,9 @@ def create_agent_executor(
                         "",
                         "Student context:",
                         "{student_context}",
+
+
+                        "If you do not find relevant study materials or upcoming tests, inform the student that you couldn't find any matches. Do not provide generic advice like 'review weak topics' without specific materials or test information to back it up.",
                     ]
                 ),
             ),
