@@ -1,0 +1,68 @@
+{
+  "materials": [
+    {
+      "material_id": "M101",
+      "topic": "Algebra",
+      "title": "Algebra Basics Revision Notes",
+      "type": "notes",
+      "url": "https://www.vedantu.com/maths/algebra",
+      "description": "A concise review of variables, expressions, identities, and equation-solving basics for Class 10 algebra."
+    },
+    {
+      "material_id": "M102",
+      "topic": "Algebra",
+      "title": "Practice Set: Algebra Word Problems",
+      "type": "practice",
+      "url": "https://www.vedantu.com/maths/algebra-practice",
+      "description": "Targeted practice problems for translating word problems into equations and solving them step by step."
+    },
+    {
+      "material_id": "M103",
+      "topic": "Quadratic Equations",
+      "title": "Quadratic Equations Concept Video",
+      "type": "video",
+      "url": "https://www.vedantu.com/maths/quadratic-equations",
+      "description": "Concept explanation covering standard form, factorization, completing the square, and the quadratic formula."
+    },
+    {
+      "material_id": "M104",
+      "topic": "Quadratic Equations",
+      "title": "Quadratic Equations Formula Drill",
+      "type": "practice",
+      "url": "https://www.vedantu.com/maths/quadratic-equations-practice",
+      "description": "A short drill focused on identifying coefficients, discriminants, roots, and common exam mistakes."
+    },
+    {
+      "material_id": "M105",
+      "topic": "Light - Reflection and Refraction",
+      "title": "Ray Diagrams Explained",
+      "type": "video",
+      "url": "https://www.vedantu.com/physics/light-reflection-and-refraction",
+      "description": "Visual explanation of mirror and lens ray diagrams, image formation rules, and sign convention."
+    },
+    {
+      "material_id": "M106",
+      "topic": "Light - Reflection and Refraction",
+      "title": "Reflection and Refraction Revision Sheet",
+      "type": "notes",
+      "url": "https://www.vedantu.com/physics/reflection-and-refraction-notes",
+      "description": "Formula sheet and revision notes for mirrors, lenses, refractive index, and numerical problem patterns."
+    },
+    {
+      "material_id": "M107",
+      "topic": "Linear Equations",
+      "title": "Linear Equations Quick Recap",
+      "type": "notes",
+      "url": "https://www.vedantu.com/maths/linear-equations",
+      "description": "A fast recap for Arjun's strong area, useful as a warm-up before Algebra practice."
+    },
+    {
+      "material_id": "M108",
+      "topic": "Chemical Reactions",
+      "title": "Chemical Reactions and Equations Revision",
+      "type": "notes",
+      "url": "https://www.vedantu.com/chemistry/chemical-reactions-and-equations",
+      "description": "Revision material covering reaction types, balancing equations, and common Class 10 examples."
+    }
+  ]
+}
