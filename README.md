@@ -47,10 +47,14 @@ Enter your OpenAI API key in the Streamlit sidebar. On the first query, the app 
 - `What should I study this week?`
 - `Which topic should I prioritize first?`
 - `I have a Maths test coming up. Help me prepare.`
+- `How do I prepare for my upcoming test.`
+- `Do I have any upcoming test?`
+
+
 
 ## Architecture
 
-`src/database.py` loads `study_materials.json`, converts each material into a LangChain `Document`, embeds it with `text-embedding-3-small`, and stores it in ChromaDB. Before indexing, it checks for `./chroma_db/chroma.sqlite3`; if the database exists, it loads the persisted collection instead of calling the embeddings API again.
+`src/database.py` loads `study_materials.json`, converts each material into a LangChain `Document`, embeds it with `text-embedding-3-small`, and stores it in ChromaDB. Before indexing, it checks for `./chroma_db/chroma.sqlite3`; if the database exists, it loads the persisted collection instead of calling the embeddings API again. Please note that I have added a little more information in the `study_materials.json` to enhance the retrieval and provide llm reponse with material or video urls.
 
 `src/tools.py` defines two LangChain tools:
 
