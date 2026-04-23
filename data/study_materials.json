@@ -42,27 +42,11 @@
     },
     {
       "material_id": "M106",
-      "topic": "Light - Reflection and Refraction",
-      "title": "Reflection and Refraction Revision Sheet",
-      "type": "notes",
-      "url": "https://www.vedantu.com/physics/reflection-and-refraction-notes",
-      "description": "Formula sheet and revision notes for mirrors, lenses, refractive index, and numerical problem patterns."
-    },
-    {
-      "material_id": "M107",
       "topic": "Linear Equations",
       "title": "Linear Equations Quick Recap",
       "type": "notes",
       "url": "https://www.vedantu.com/maths/linear-equations",
       "description": "A fast recap for Arjun's strong area, useful as a warm-up before Algebra practice."
-    },
-    {
-      "material_id": "M108",
-      "topic": "Chemical Reactions",
-      "title": "Chemical Reactions and Equations Revision",
-      "type": "notes",
-      "url": "https://www.vedantu.com/chemistry/chemical-reactions-and-equations",
-      "description": "Revision material covering reaction types, balancing equations, and common Class 10 examples."
     }
   ]
 }

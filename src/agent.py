@@ -87,6 +87,7 @@ def create_agent_executor(
                         "When the student asks what to study this week or mentions an upcoming test, use get_upcoming_tests, then combine the result with weak topics and retrieved study materials.",
                         "Do not invent student details, test dates, scores, or links. If a tool has no result, say so and still give a practical next step.",
                         "Keep responses concise, supportive, and specific.",
+                        "Only provide relavant information and resources based on the student's actual context, request or query. Do not give generic advice without specific backing from the student's profile, performance, or retrieved materials.",
                         "",
                         "Student context:",
                         "{student_context}",
