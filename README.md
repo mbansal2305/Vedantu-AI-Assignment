@@ -30,7 +30,7 @@ README.md
 
 ## Setup
 
-Use Python 3.10+. On Windows, Python 3.10 or 3.11 is recommended because older ChromaDB releases may need local C++ build tools on Python 3.12.
+Use 3.11 because older ChromaDB releases may need local C++ build tools on Python 3.12.
 
 ```bash
 python -m venv .venv
